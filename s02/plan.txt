@@ -1,0 +1,32 @@
+Rappel : 
+
+text-center text-color 
+
+p(t/b/s/e)(-1..5) : padding
+m(t/b/s/e)(-1..5) : margin
+
+gird system : 
+
+row
+
+    col-xx-yy
+
+    xx : sm md lg xl xxl
+    yy : 1 - 12
+
+les images : rounded rounded-circle float-start float-end img-fluid(responsive)
+
+d-block d-flex ....
+
+border border-color
+
+bg-color (danger warning info primary secondary light success dark)
+
+container container-fluid
+
+btn btn-color 
+
+les tables : table table-striped table-hover table-bordered table-boderless table-color
+
+
+// les formulaires 

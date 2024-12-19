@@ -1,0 +1,6 @@
+Bootstrap : 
+
+* framework de css : simplification 
+* open source : gratuit
+
+* grid system
