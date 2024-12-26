@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Titre de la carte</h4>
+                <p class="card-text">Quelques exemples de texte. Quelques exemples de texte. </p>
+                <a href="#" class="card-link">Lien carte</a>
+                <a href="#" class="card-link">Autre lien</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="alert alert-warning alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong> Succès!</strong> Indique une action réussie ou positive.
+        </div>
+
+
+        <div class="progress my-5">
+            <div class="progress-bar" style="width :99%">HTML</div>
+        </div>
+        <div class="progress my-5">
+            <div class="progress-bar bg-success" style="width :90%">CSS</div>
+        </div>
+        <div class="progress my-5">
+            <div class="progress-bar progress-bar-striped bg-info" style="width :70%">BS</div>
+            <div class="progress-bar progress-bar-striped bg-warning" style="width :70%">BS</div>
+        </div>
+        <div class="progress my-5">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width :70%">BS</div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <nav class="navbar bg-primary navbar-dark">
+                    <div class="container">
+                        <!-- Liens -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Link 1</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Link 3</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Link 3</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Link 3</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Link 3</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Link 3</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Link 3</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-9 bg-info">
+                <nav class="navbar bg-warning navbar-expand-sm navbar-dark">
+                    <div class="container justify-content-end">
+                        <!-- Liens -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Les Modules <span class="badge bg-primary">15</span></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Link 2</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Link 3</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-5">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                ariaexpanded="false"> Menu déroulant <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+
+                <li><a href="#" title="Lien 1">Lien 1 </a></li>
+                <li><a href="#" title="Lien 2">Lien 2</a></li>
+                <li><a href="#" title="Lien 3">Lien 3</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#" title="Lien 4">Lien 4</a></li>
+            </ul>
+        </div>
+
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-primary">1</button>
+            <button type="button" class="btn btn-primary">2</button>
+
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="py-5">
+        <ul class="pagination pagination-sm justify-content-start">
+            <li class="page-item"><a class="page-link" href="#">Précédent</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item active"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+        </ul>
+
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">Précédent</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item active"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+        </ul>
+
+        <ul class="pagination pagination-lg justify-content-end">
+            <li class="page-item"><a class="page-link" href="#">Précédent</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item active"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Suivant</a></li>
+        </ul>
+
+        <ul class="breadcrumb" style="--bs-breadcrumb-divider: '>';">
+            <li class="breadcrumb-item"><a href="#">HTML</a></li>
+            <li class="breadcrumb-item"><a href="#">CSS</a></li>
+            <li class="breadcrumb-item"><a href="#">Bootstrap</a></li>
+            <li class="breadcrumb-item active">Exemples</li>
+        </ul>
+
+        <span class="badge bg-primary">Primaire</span>
+        <span class="badge bg-secondary">Secondaire</span>
+        <span class="badge bg-success">Succès</span>
+        <span class="badge bg-danger">Danger</span>
+        <span class="badge bg-warning">Avertissement</span>
+        <span class="badge bg-info">Info</span>
+        <span class="badge bg-light">Léger</span>
+        <span class="badge bg-dark">Sombre</span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+Les formulaires :
+
+form-label
+form-control form-control-sm|form-control-lg
+
+form-select form-select-sm|form-select-lg
+
+div.form-check [form-switch]
+    input.form-check-input
+    label.form-check-label
+
+btn btn-color
+btn btn-outline-color
+
+gab : g-(1..5)
+
+les composants bootstrap :
+
+1. Barres de navigation
+2. Menus déroulants
+3. Pagination, badges et alertes
+4. Barres de progression
+5. Cartes (cards)
+
+
